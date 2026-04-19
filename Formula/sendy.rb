@@ -6,23 +6,23 @@ class Sendy < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Achronon/sendy-md/releases/download/cli-v#{version}/sendy-darwin-arm64"
-      sha256 "404d7799022a851e4a4d6646c356825a15ab48816ed690be559a52474d6ed13d"
+      url "https://github.com/Achronon/sendy-cli/releases/download/v#{version}/sendy-darwin-arm64"
+      sha256 "02de998a4889fb2da69105fea2e20fde30b06333ea23dc8b486323d5f381a50b"
     end
     on_intel do
-      url "https://github.com/Achronon/sendy-md/releases/download/cli-v#{version}/sendy-darwin-amd64"
-      sha256 "97701cbe441ac63d5141d12b4235fbb18372228d79d421b40c9c384fb7418bfb"
+      url "https://github.com/Achronon/sendy-cli/releases/download/v#{version}/sendy-darwin-amd64"
+      sha256 "fbf7c2692f9a2d00b8003d46c4a359022b163cbff893ff057d8320256d0d1c0a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Achronon/sendy-md/releases/download/cli-v#{version}/sendy-linux-arm64"
-      sha256 "bb861be52d5ef1de3958fe282c0931ad018effa9847e82b78424fcc7b8ed7f6e"
+      url "https://github.com/Achronon/sendy-cli/releases/download/v#{version}/sendy-linux-arm64"
+      sha256 "2b2e7bf1b8b3e1e8c89f1530c84f2e614afe0030cd0c238e6fe434a00f3d5a9a"
     end
     on_intel do
-      url "https://github.com/Achronon/sendy-md/releases/download/cli-v#{version}/sendy-linux-amd64"
-      sha256 "5744eff4a69e830251f49cd39aa1a90808dd966d963cf295149be6974754fee1"
+      url "https://github.com/Achronon/sendy-cli/releases/download/v#{version}/sendy-linux-amd64"
+      sha256 "cc6cef46e60b7e3a2d0caad55114d0c2bd14ca09a054a56e6a4143d6fe879cc8"
     end
   end
 
